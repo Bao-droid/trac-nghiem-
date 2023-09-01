@@ -2,7 +2,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">Modal title</h5>
+        <h5 class="modal-title">Chi tiết câu hỏi:</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -51,7 +51,7 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-primary" id="btnSubmit">Xác nhận</button>
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
       </div>
     </div>
   </div>
@@ -69,11 +69,11 @@
          //console.log(question,option_a,option_b,option_c,option_d,answer);
 
          if (question.length == 0 || option_a.length == 0 || option_b.length == 0 || option_c.length == 0 || option_d.length == 0  ) {
-          alert('Vui lòng nhập đầy đủ câu hỏi và các đáp án');
+          alert('Vui lòng nhập đầy đủ câu hỏi và các đáp án!');
           return;
          }
          if (answer.length == 0  ) {
-          alert('Vui lòng chọn đáp án đúng');
+          alert('Vui lòng chọn đáp án đúng!');
           return;
          }
 
