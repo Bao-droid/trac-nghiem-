@@ -21,9 +21,9 @@
       $sql = $sql."where id = '".$id."' ";
 
       if ($conn->query($sql) == TRUE) {
-        echo "Cập nhật câu hỏi thành công";
+        echo "Cập nhật câu hỏi thành công!";
         } else {
-        echo "Cập nhật câu hỏi thất bại";
+        echo "Cập nhật câu hỏi thất bại.";
         }
        }catch(Exception $e){
            echo "Lỗi cập nhật câu hỏi: " .$e;
