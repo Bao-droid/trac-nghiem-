@@ -12,9 +12,9 @@
       $sql = $sql."values('".$question."','".$option_a."','".$option_b."','".$option_c."','".$option_d."','".$answer."')";
     
       if ($conn->query($sql) == TRUE) {
-        echo "Thêm câu hỏi thành công";
+        echo "Thêm câu hỏi thành công!";
         } else {
-        echo "Không thêm được câu hỏi";
+        echo "Không thêm được câu hỏi.";
         }
   } catch (Exception $e) {
         echo "Lỗi:" .$e; 
