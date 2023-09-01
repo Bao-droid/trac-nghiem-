@@ -75,13 +75,13 @@
              
             if(choice == answer)
             {
-               mark += 2;
+               mark += 1;
              }else{
                console.log('Câu có id : '+id+' sai');  
             }
             $('#question_'+id+' > fieldset > div > label.'+answer).css("background-color","yellow");
          });
-        $('#mark').text('Điểm của bạn là: '+mark);
+        $('#mark').text('Điểm bài thi đã làm của bạn là: '+mark);
     }
 
 	function GetQuestions() {
